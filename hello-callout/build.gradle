@@ -1,0 +1,24 @@
+apply plugin: 'java'
+//apply plugin: 'checkstyle'
+//apply plugin: 'findbugs'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+	compile files('lib/expressions-1.0.0.jar')
+	compile files('lib/message-flow-1.0.0.jar')
+	testCompile 'org.jmockit:jmockit:1.33'
+	testCompile 'junit:junit:4.+'
+}
+
+jar {
+	archiveName 'edge-callout-hello.jar'
+}
+
+
+sourceSets.main.java.srcDirs = ['src']
+
+sourceSets.test.java.srcDirs = ['test']
+

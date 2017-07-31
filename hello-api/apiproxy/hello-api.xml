@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="11" name="jwt-generate-api">
+    <Basepaths>/v1/hello</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1501074430071</CreatedAt>
+    <CreatedBy>ssudhindra@google.com</CreatedBy>
+    <DisplayName>hello-api</DisplayName>
+    <LastModifiedAt>1501074430071</LastModifiedAt>
+    <LastModifiedBy>ssudhindra@google.com</LastModifiedBy>
+    <Policies>
+        <Policy>AM-Response</Policy>
+        <Policy>AM-BadRequest</Policy>
+        <Policy>AM-ServerError</Policy>
+        <Policy>EV-GetName</Policy>
+        <Policy>JC-Hello</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://edge-callout-hello.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

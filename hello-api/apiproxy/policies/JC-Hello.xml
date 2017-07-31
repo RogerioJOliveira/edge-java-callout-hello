@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout async="false" continueOnError="false" enabled="true" name="JC-Hello">
+    <DisplayName>JC-Hello</DisplayName>
+    <FaultRules/>
+    <Properties>
+        <Property name="hello-name">{hello.name}</Property>
+    </Properties>
+    <ClassName>com.apigee.callout.Hello</ClassName>
+    <ResourceURL>java://edge-callout-hello.jar</ResourceURL>
+</JavaCallout>
