@@ -7,6 +7,7 @@ Benefits
 - Use `gradle` to build Java callout jar
 - Sample tests for Java callout
 - Ready mock objects for `MessageContext` and `ExecutionContext`
+- A trick to use variables on Java Callout properties
 - Predifined `FaultRules` for API proxy
 - Sample BDD tests for API proxy
 - Build script using [`apigeetool`](https://github.com/apigee/apigeetool-node)
